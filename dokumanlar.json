@@ -17,6 +17,18 @@
             "aciklama": "Tek sayfa uygulamalar geliştirin",
             "link": "https://github.com/omergulcicek/react-router",
             "logo": router
+        },
+        {
+            "ad": "Airbnb JavaScript Kılavuzu",
+            "aciklama": "JavaScript'e daha akıllıca bir yaklaşım",
+            "link": "https://github.com/eraycetinay/javascript",
+            "logo": ''
+        },
+        {
+            "ad": "Front-End Checklist",
+            "aciklama": "Modern sitelerin titiz geliştiricileri için Front-End Checklist ",
+            "link": "https://github.com/eraycetinay/Front-End-Checklist",
+            "logo": ''
         }
     ],
     "tarih": "8 Nisan 2018"
