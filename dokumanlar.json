@@ -18,7 +18,7 @@
         "logo": "router"
     },
     {
-        "ad": "Airbnb JavaScript Kılavuzu",
+        "ad": "JavaScript Kılavuzu",
         "aciklama": "JavaScript'e daha akıllıca bir yaklaşım",
         "link": "https://github.com/eraycetinay/javascript",
         "logo": "javascript"
@@ -27,6 +27,6 @@
         "ad": "Front-End Checklist",
         "aciklama": "Modern sitelerin titiz geliştiricileri için Front-End Checklist ",
         "link": "https://github.com/eraycetinay/Front-End-Checklist",
-        "logo": ""
+        "logo": "html"
     }
 ]
