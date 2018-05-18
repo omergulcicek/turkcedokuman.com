@@ -3,30 +3,35 @@
         "ad": "Gulp",
         "aciklama": "JavaScript görev çalıştırıcısı",
         "link": "https://github.com/omergulcicek/gulp",
-        "logo": "gulp"
+        "logo": "gulp",
+        "yazar": "Ömer Gülçiçek"
     },
     {
         "ad": "React",
         "aciklama": "JavaScript kütüphanesi",
         "link": "https://github.com/omergulcicek/reactjs",
-        "logo": "react"
+        "logo": "react",
+        "yazar": "Ömer Gülçiçek"
     },
     {
         "ad": "React Router",
         "aciklama": "Tek sayfa uygulamalar geliştirin",
         "link": "https://github.com/omergulcicek/react-router",
-        "logo": "router"
+        "logo": "router",
+        "yazar": "Ömer Gülçiçek"
     },
     {
         "ad": "JavaScript Kılavuzu",
         "aciklama": "JavaScript'e daha akıllıca bir yaklaşım",
         "link": "https://github.com/eraycetinay/javascript",
-        "logo": "javascript"
+        "logo": "javascript",
+        "yazar": "Eray Çetinay"
     },
     {
         "ad": "Front-End Checklist",
         "aciklama": "Modern sitelerin titiz geliştiricileri için Front-End Checklist ",
         "link": "https://github.com/eraycetinay/Front-End-Checklist",
-        "logo": "html"
+        "logo": "html",
+        "yazar": "Eray Çetinay"
     }
 ]
