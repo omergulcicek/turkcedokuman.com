@@ -1,10 +1,31 @@
 [
     {
+        "ad": "CSS/Sass Rehberi",
+        "aciklama": "CSS ve Sass için makul bi yaklaşım",
+        "link": "https://github.com/omergulcicek/css-sass-rehberi",
+        "logo": "sass",
+        "yazar": "Ömer Gülçiçek"
+    },
+    {
+        "ad": "Front-End Checklist",
+        "aciklama": "Modern sitelerin titiz geliştiricileri için Front-End Checklist",
+        "link": "https://github.com/eraycetinay/Front-End-Checklist",
+        "logo": "html",
+        "yazar": "Eray Çetinay"
+    },
+    {
         "ad": "Gulp",
         "aciklama": "JavaScript görev çalıştırıcısı",
         "link": "https://github.com/omergulcicek/gulp",
         "logo": "gulp",
         "yazar": "Ömer Gülçiçek"
+    },
+    {
+        "ad": "JavaScript Kılavuzu",
+        "aciklama": "JavaScript'e daha akıllıca bir yaklaşım",
+        "link": "https://github.com/eraycetinay/javascript",
+        "logo": "javascript",
+        "yazar": "Eray Çetinay"
     },
     {
         "ad": "React",
@@ -19,19 +40,5 @@
         "link": "https://github.com/omergulcicek/react-router",
         "logo": "router",
         "yazar": "Ömer Gülçiçek"
-    },
-    {
-        "ad": "JavaScript Kılavuzu",
-        "aciklama": "JavaScript'e daha akıllıca bir yaklaşım",
-        "link": "https://github.com/eraycetinay/javascript",
-        "logo": "javascript",
-        "yazar": "Eray Çetinay"
-    },
-    {
-        "ad": "Front-End Checklist",
-        "aciklama": "Modern sitelerin titiz geliştiricileri için Front-End Checklist ",
-        "link": "https://github.com/eraycetinay/Front-End-Checklist",
-        "logo": "html",
-        "yazar": "Eray Çetinay"
     }
 ]
