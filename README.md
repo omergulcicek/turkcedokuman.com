@@ -36,7 +36,7 @@ Eklenecek örnek bir data:
 
 ---
 
-<a href="https://turkcedokuman.com">turkcedokuman.com</a>, yalnızca bir yazılım dili/kütüphanesi/programı hakkında detaylıca eğitim içeren dokümanların toplandığı bir projedir.
+<a href="https://turkcedokuman.com">turkcedokuman.com</a>, yalnızca bir yazılım dili/kütüphanesi/araçları hakkında detaylıca eğitim içeren dokümanların toplandığı bir projedir.
 
 Bir konu hakkında eğitici makale yada video içerikleri listeye eklemeyiniz.
 Bu tarz içerikleri <a href="https://github.com/fatihacet/turkcekaynaklar-com">Türkçe Kaynaklar</a> projesine ekleyerek destek olabilirsiniz.
