@@ -10,7 +10,17 @@
 
 `logo` kısmına dokümanın kategori adını yazın. (<i>Örneğin `"logo": "react"`</i>)
 
-Şu logoları kullanabilirsiniz: `html`, `css`, `sass`, `javascript`, `es6`, `react`, `router`, `redux`, `vue`, `angular`, `gulp`, `grunt`, `webpack`, `github` (<i>doküman logosu listede yoksa boş bırakın. `"logo": ""`</i>)
+Şu logoları kullanabilirsiniz:
+
+| <img src="https://omergulcicek.com/img/angular.png" height="32">  | <img src="https://omergulcicek.com/img/css.png" height="32"> | <img src="https://omergulcicek.com/img/es6.png" height="32">  | <img src="https://omergulcicek.com/img/github.png" height="32">  | <img src="https://omergulcicek.com/img/grunt.png" height="32">  |
+| :---: | :---: | :---: | :---: | :---: |
+| angular  | css  | es6  | github  | grunt  |
+| <img src="https://omergulcicek.com/img/gulp.png" height="32">  | <img src="https://omergulcicek.com/img/html.png" height="32">  | <img src="https://omergulcicek.com/img/javascript.png" height="32">  | <img src="https://omergulcicek.com/img/react.png" height="32">  | <img src="https://omergulcicek.com/img/redux.png" height="32">  |
+| gulp  | html  | javascript  | react  | redux  |
+| <img src="https://omergulcicek.com/img/router.png" height="32">  | <img src="https://omergulcicek.com/img/sass.png" height="32">  | <img src="https://omergulcicek.com/img/turkuazcss.png" height="32">  | <img src="https://omergulcicek.com/img/vue.png" height="32">  | <img src="https://omergulcicek.com/img/webpack.png" height="32">  |
+| router  | sass  | turkuazcss  | vue  | webpack  |
+
+<i>Doküman logosu listede yoksa boş bırakın: `"logo": ""`</i>
 
 Eklenecek örnek bir data:
 
@@ -26,4 +36,7 @@ Eklenecek örnek bir data:
 
 ---
 
-<i>Makale yada video içerikleri listeye eklemeyiniz. Bu tarz içerikleri <a href="https://github.com/fatihacet/turkcekaynaklar-com">Türkçe Kaynaklar</a> projesine ekleyerek destek olabilirsiniz.</i>
+<a href="https://turkcedokuman.com">turkcedokuman.com</a>, yalnızca bir yazılım dili/kütüphanesi/programı hakkında detaylıca eğitim içeren dokümanların toplandığı bir projedir.
+
+Bir konu hakkında eğitici makale yada video içerikleri listeye eklemeyiniz.
+Bu tarz içerikleri <a href="https://github.com/fatihacet/turkcekaynaklar-com">Türkçe Kaynaklar</a> projesine ekleyerek destek olabilirsiniz.
