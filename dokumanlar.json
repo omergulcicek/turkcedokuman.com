@@ -40,5 +40,12 @@
         "link": "https://github.com/omergulcicek/react-router",
         "logo": "router",
         "yazar": "Ömer Gülçiçek"
+    },
+    {
+        "ad": "React Native",
+        "aciklama": "Cross Platform native uygulama geliştirin",
+        "link": "https://ysfzrn.gitbooks.io/react-native-turkce/",
+        "logo": "",
+        "yazar": "Yusuf Zeren"
     }
 ]
