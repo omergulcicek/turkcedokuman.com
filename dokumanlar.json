@@ -7,6 +7,13 @@
         "yazar": "Ömer Gülçiçek"
     },
     {
+        "ad": "ES6",
+        "aciklama": "ECMAScript 6",
+        "link": "https://github.com/omergulcicek/es6",
+        "logo": "es6",
+        "yazar": "Ömer Gülçiçek"
+    },
+    {
         "ad": "Front-End Checklist",
         "aciklama": "Modern sitelerin titiz geliştiricileri için Front-End Checklist",
         "link": "https://github.com/eraycetinay/Front-End-Checklist",
@@ -21,7 +28,7 @@
         "yazar": "Ömer Gülçiçek"
     },
     {
-        "ad": "JavaScript Kılavuzu",
+        "ad": "JavaScript",
         "aciklama": "JavaScript'e daha akıllıca bir yaklaşım",
         "link": "https://github.com/eraycetinay/javascript",
         "logo": "javascript",
