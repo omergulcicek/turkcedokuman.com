@@ -35,6 +35,13 @@
         "yazar": "Eray Çetinay"
     },
     {
+        "ad": "Python",
+        "aciklama": "Python 3 için Türkçe Kılavuz ",
+        "link": "https://github.com/yazbel/python-istihza",
+        "logo": "python",
+        "yazar": "Fırat Özgül"
+    },   
+    {
         "ad": "React",
         "aciklama": "JavaScript kütüphanesi",
         "link": "https://github.com/omergulcicek/reactjs",
