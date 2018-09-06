@@ -61,5 +61,12 @@
         "link": "https://github.com/omergulcicek/react-router",
         "logo": "router",
         "yazar": "Ömer Gülçiçek"
+    },
+    {
+        "ad": "JavaScript Dersleri",
+        "aciklama": "JavaScript rehberi niteliğinde dersler.",
+        "link": "https://github.com/sahinyanlik/javascript-tutorial-tr",
+        "logo": "javascript",
+        "yazar": "Şahin Yanlık"
     }
 ]
