@@ -6,8 +6,8 @@
 
 <h3><a href="https://turkcedokuman.com/">turkcedokuman.com</a></h3>
 
-<a href="https://github.com/omergulcicek/turkcedokuman/blob/master/dokumanlar.json">dokuman.json</a>'a pull request yapınız.
-
+<a href="https://github.com/omergulcicek/turkcedokuman/blob/master/dokumanlar.json">dokuman.json</a>'a pull request yapınız. (*Doküman adına göre alfabetik olarak listeye ekleyiniz.*)
+ 
 `logo` kısmına dokümanın kategori adını yazın. (<i>Örneğin `"logo": "react"`</i>)
 
 Şu logoları kullanabilirsiniz:
