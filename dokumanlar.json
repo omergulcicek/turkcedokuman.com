@@ -68,5 +68,12 @@
         "link": "https://github.com/omergulcicek/react-router",
         "logo": "router",
         "yazar": "Ömer Gülçiçek"
+    },
+    {
+        "ad": "Shell",
+        "aciklama": "Shell Rehberi",
+        "link": "https://github.com/omergulen/bash-guide",
+        "logo": "bash",
+        "yazar": "Ömer Gülen"
     }
 ]
