@@ -75,5 +75,12 @@
         "link": "https://github.com/omergulen/bash-guide",
         "logo": "shell",
         "yazar": "Ömer Gülen"
+    },
+     {
+        "ad": "CSS Grid Layout",
+        "aciklama": "CSS Grid Layout Rehberi",
+        "link": "https://github.com/ahmetozantekin/css-grid-layout-rehberi",
+        "logo": "css",
+        "yazar": "Ahmet Ozan Tekin"
     }
 ]
