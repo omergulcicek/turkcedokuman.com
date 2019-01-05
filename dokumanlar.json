@@ -7,6 +7,13 @@
         "yazar": "Ömer Gülçiçek"
     },
     {
+        "ad": "CSS Grid Layout",
+        "aciklama": "CSS Grid Layout Rehberi",
+        "link": "https://github.com/ahmetozantekin/css-grid-layout-rehberi",
+        "logo": "css",
+        "yazar": "Ahmet Ozan Tekin"
+    },
+    {
         "ad": "ES6",
         "aciklama": "ECMAScript 6",
         "link": "https://github.com/omergulcicek/es6",
@@ -42,6 +49,13 @@
         "yazar": "Şahin Yanlık"
     },
     {
+        "ad": "Linux Eğitimi",
+        "aciklama": "Kali Linux üzerinden işlenen Linux komut satırı dersleri doküman kaynağıdır.",
+        "link": "https://github.com/taylanbildik/Linux_Dersleri",
+        "logo": "linux",
+        "yazar": "Taylan Özgür Bildik"
+    },
+    {
         "ad": "Python",
         "aciklama": "Python 3 için Türkçe Kılavuz ",
         "link": "https://github.com/yazbel/python-istihza",
@@ -75,19 +89,5 @@
         "link": "https://github.com/omergulen/bash-guide",
         "logo": "shell",
         "yazar": "Ömer Gülen"
-    },
-     {
-        "ad": "CSS Grid Layout",
-        "aciklama": "CSS Grid Layout Rehberi",
-        "link": "https://github.com/ahmetozantekin/css-grid-layout-rehberi",
-        "logo": "css",
-        "yazar": "Ahmet Ozan Tekin"
-    },
-     {
-        "ad": "Temel Linux Eğitimi",
-        "aciklama": "Kali Linux üzerinden işlenen Linux komut satırı dersleri dokümantasyon kaynağıdır.",
-        "link": "https://github.com/taylanbildik/Linux_Dersleri",
-        "logo": "",
-        "yazar": "Taylan Özgür Bildik"
     }
 ]
