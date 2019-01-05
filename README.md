@@ -24,7 +24,9 @@
 
 <i>Doküman logosu listede yoksa boş bırakın: `"logo": ""`</i>
 
-Proje adını olabildiğince sade teknik olarak yazın, eklemeler yapmayın. Örneğin "*React*" olabilir fakat "*React'a Giriş Dokümanı*" tarzı başlıklardan kaçının. Detayları açıklama alanına yazabilirsiniz.
+Proje adını olabildiğince sade yazın, eklemeler yapmayın. Örneğin "*React*" olabilir fakat "*React'a Giriş Dokümanı*" tarzı başlıklardan kaçının. Detayları açıklama alanına yazabilirsiniz.
+
+Projeleri **alfabetik** sıralamaya göre eklemeye özen gösterin.
 
 Eklenecek örnek bir data:
 
