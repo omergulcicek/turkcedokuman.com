@@ -82,5 +82,12 @@
         "link": "https://github.com/ahmetozantekin/css-grid-layout-rehberi",
         "logo": "css",
         "yazar": "Ahmet Ozan Tekin"
+    },
+     {
+        "ad": "Temel Linux Eğitimi",
+        "aciklama": "Kali Linux üzerinden işlenen Linux komut satırı dersleri dokümantasyon kaynağıdır.",
+        "link": "https://github.com/taylanbildik/Linux_Dersleri",
+        "logo": "",
+        "yazar": "Taylan Özgür Bildik"
     }
 ]
