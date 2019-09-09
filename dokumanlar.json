@@ -43,10 +43,10 @@
     },
     {
         "ad": "JavaScript Dersleri",
-        "aciklama": "JavaScript rehberi niteliğinde dersler.",
-        "link": "https://github.com/sahinyanlik/javascript-tutorial-tr",
+        "aciklama": "Kolay konulardan daha zora doğru, basit fakat detaylı bir anlatım",
+        "link": "http://tr.javascript.info/",
         "logo": "javascript",
-        "yazar": "Şahin Yanlık"
+        "yazar": "javascript.info"
     },
     {
         "ad": "Linux Eğitimi",
