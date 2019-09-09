@@ -70,6 +70,13 @@
         "yazar": "Ömer Gülçiçek"
     },
     {
+        "ad": "React",
+        "aciklama": "Kullanıcı arayüzleri geliştirebileceğiniz bir JavaScript kütüphanesi",
+        "link": "https://tr.reactjs.org/",
+        "logo": "react",
+        "yazar": "reactjs.org"
+    },
+    {
         "ad": "React Native",
         "aciklama": "Cross Platform native uygulama geliştirin",
         "link": "https://ysfzrn.gitbooks.io/react-native-turkce/",
