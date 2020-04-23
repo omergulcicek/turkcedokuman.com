@@ -70,6 +70,13 @@
         "yazar": "Ömer Gülçiçek"
     },
     {
+        "ad": "React Türkçe Kaynak",
+        "aciklama": "React.js öğrenmek için kullanabileceğiniz ücretsiz Türkçe kaynak.",
+        "link": "https://github.com/orcuntuna/react-turkce-kaynak",
+        "logo": "react",
+        "yazar": "Orçun Tuna"
+    },
+    {
         "ad": "React",
         "aciklama": "Kullanıcı arayüzleri geliştirebileceğiniz bir JavaScript kütüphanesi",
         "link": "https://tr.reactjs.org/",
