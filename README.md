@@ -1,7 +1,3 @@
-<p align="center">
-<img src="https://omergulcicek.com/img/turkcedokuman.png" alt="Türkçe Doküman" height="100">
-</p>
-
 <h1 align="center">Türkçe Doküman</h1>
 
 <h3><a href="https://turkcedokuman.com/">turkcedokuman.com</a></h3>
@@ -28,6 +24,8 @@ Proje adını olabildiğince sade yazın, eklemeler yapmayın. Örneğin "*React
 
 Projeleri **alfabetik** sıralamaya göre eklemeye özen gösterin.
 
+`etiket` kısmına site içerisinde arama yapıldığında dokümanınızın kolay bulunabilmesi için anahtar kelimeleri yazın yada boş bırakın (<i>Örneğin `"etiket": "react,javascript,es6"` yada `"etiket": ""`</i>).
+
 Eklenecek örnek bir data:
 
 ```js
@@ -36,7 +34,8 @@ Eklenecek örnek bir data:
     "aciklama": "proje açıklaması",
     "link": "https://github.com/omergulcicek/proje",
     "logo": "javascript",
-    "yazar": "Ömer Gülçiçek"
+    "yazar": "Ömer Gülçiçek",
+    "etiket": "react,javascript,es6"
 }
 ```
 
