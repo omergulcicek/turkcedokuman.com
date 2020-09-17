@@ -1,11 +1,10 @@
 import React from "react"
 import styled from "styled-components"
-import turkcedokuman from "./../turkcedokuman.json"
+import turkcedokuman from "../turkcedokuman.json"
 
 function App() {
   let result = []
-  console.log(turkcedokuman)
-
+  
   turkcedokuman.map(({ad, aciklama, link, logo, yazar}, i) => 
   result.push(
     <div className="col-12 col-md-6 col-xl-4">
@@ -92,8 +91,16 @@ const Card = styled.article`
     div {
       width: 50%;
 
+      &:first-of-type {
+        overflow: hidden;
+        padding-right: 8px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
       &:last-of-type {
         border-left: 1px solid rgba(0, 0, 0, 0.1);
+        padding-left: 8px;
         text-align: right;
       }
 

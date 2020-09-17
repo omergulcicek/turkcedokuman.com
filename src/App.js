@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Header, Main, Footer } from "./layout/index"
+import { Header, Main, Footer } from "./components"
 
 
 function App() {

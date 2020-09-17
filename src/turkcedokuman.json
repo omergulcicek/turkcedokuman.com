@@ -98,6 +98,13 @@
       "yazar": "Ömer Gülçiçek"
   },
   {
+      "ad": "Rust",
+      "aciklama": "Dumindu Madunuwan tarafından yazılan Learning Rust adlı kitabı",
+      "link": "https://github.com/RustDili/Rust-Ogrenmek",
+      "logo": "rust",
+      "yazar": "Dumindu Madunuwan"
+  },
+  {
       "ad": "Shell",
       "aciklama": "Shell Rehberi",
       "link": "https://github.com/omergulen/bash-guide",
