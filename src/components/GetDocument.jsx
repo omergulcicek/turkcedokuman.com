@@ -2,12 +2,19 @@ import React from "react"
 import styled from "styled-components"
 import turkcedokuman from "../turkcedokuman.json"
 
-function App() {
+function App({document}) {
   let result = []
+  const wordToSearch = document.toLocaleLowerCase("tr-TR")
+
+  let list = turkcedokuman.filter(e => 
+    e.ad.toLocaleLowerCase("tr-TR").indexOf(wordToSearch) > -1
+    || e.aciklama.toLocaleLowerCase("tr-TR").indexOf(wordToSearch) > -1
+    || e.yazar.toLocaleLowerCase("tr-TR").indexOf(wordToSearch) > -1
+  )
   
-  turkcedokuman.map(({ad, aciklama, link, logo, yazar}, i) => 
+  list.map(({ad, aciklama, link, logo, yazar}, i) => 
   result.push(
-    <div className="col-12 col-md-6 col-xl-4">
+    <div className="col-12 col-md-6 col-xl-4" key={i}>
       <Card>
         <header>
           <img src={require(`../img/${logo}.png`)} alt="Logo" height="80" />

@@ -2,14 +2,20 @@ import React from "react"
 import styled from "styled-components"
 import { Brand } from "./index"
 
-function App() {
+function App(props) {
   return (
     <Header className="header">
       <div className="container">
         <Flex>
           <Brand />
 
-          <Search type="text" className="input header__search" placeholder="Doküman, açıklama yada yazar ara"/>
+          <Search
+            type="text"
+            className="input header__search"
+            placeholder="Doküman, açıklama yada yazar ara"
+            value={props.document}
+            onChange={e => props.onChange(e.target.value)}
+          />
         </Flex>
       </div>
     </Header>

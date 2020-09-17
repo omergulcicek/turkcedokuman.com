@@ -7,9 +7,9 @@ import FooterComp from "./Footer"
 import BrandComp from "./Brand"
 import GetDocumentComp from "./GetDocument"
 
-export const Header   = () => <HeaderComp />
-export const Main     = () => <MainComp />
-export const Footer   = () => <FooterComp />
+export const Header       = (p) => <HeaderComp {...p} />
+export const Main         = (p) => <MainComp {...p} />
+export const Footer       = (p) => <FooterComp />
 
-export const Brand   = () => <BrandComp />
-export const GetDocument   = () => <GetDocumentComp />
+export const Brand        = () => <BrandComp />
+export const GetDocument  = (p) => <GetDocumentComp {...p} />
