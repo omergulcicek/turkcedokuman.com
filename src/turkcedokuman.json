@@ -21,15 +21,15 @@
       "yazar": "Ömer Gülçiçek"
   },
   {
-      "ad": "Front-End Checklist",
-      "aciklama": "Modern sitelerin titiz geliştiricileri için Front-End Checklist",
+      "ad": "Frontend Checklist",
+      "aciklama": "Modern sitelerin titiz geliştiricileri için frontend checklist",
       "link": "https://github.com/eraycetinay/Front-End-Checklist",
       "logo": "html",
       "yazar": "Eray Çetinay"
   },
   {
       "ad": "Gulp",
-      "aciklama": "JavaScript görev çalıştırıcısı",
+      "aciklama": "Kodlarınızı otomatikleştirmek ve geliştirmek için bir görev çalıştırıcısı",
       "link": "https://github.com/omergulcicek/gulp",
       "logo": "gulp",
       "yazar": "Ömer Gülçiçek"
@@ -42,15 +42,15 @@
       "yazar": "Eray Çetinay"
   },
   {
-      "ad": "JavaScript Dersleri",
+      "ad": "JavaScript",
       "aciklama": "Kolay konulardan daha zora doğru, basit fakat detaylı bir anlatım",
       "link": "http://tr.javascript.info/",
       "logo": "javascript",
       "yazar": "javascript.info"
   },
   {
-      "ad": "Linux Eğitimi",
-      "aciklama": "Kali Linux üzerinden işlenen Linux komut satırı dersleri doküman kaynağıdır.",
+      "ad": "Linux",
+      "aciklama": "Kali Linux üzerinden işlenen Linux komut satırı dersleri doküman kaynağı",
       "link": "https://github.com/taylanbildik/Linux_Dersleri",
       "logo": "linux",
       "yazar": "Taylan Özgür Bildik"
@@ -64,13 +64,13 @@
   },   
   {
       "ad": "React",
-      "aciklama": "JavaScript kütüphanesi",
+      "aciklama": "Kullanıcı arayüzleri geliştirebileceğiniz bir JavaScript kütüphanesi",
       "link": "https://github.com/omergulcicek/react",
       "logo": "react",
       "yazar": "Ömer Gülçiçek"
   },
   {
-      "ad": "React Türkçe Kaynak",
+      "ad": "React",
       "aciklama": "React.js öğrenmek için kullanabileceğiniz ücretsiz Türkçe kaynak.",
       "link": "https://github.com/orcuntuna/react-turkce-kaynak",
       "logo": "react",
@@ -92,17 +92,10 @@
   },
   {
       "ad": "React Router",
-      "aciklama": "Tek sayfa uygulamalar geliştirin",
+      "aciklama": "React ile tek sayfa uygulamalar geliştirin",
       "link": "https://github.com/omergulcicek/react-router",
       "logo": "router",
       "yazar": "Ömer Gülçiçek"
-  },
-  {
-      "ad": "Rust'ı Öğrenmek",
-      "aciklama": "Dumindu Madunuwan tarafından yazılan Learning Rust adlı dökümanın genişletilerek dilimize kazandırılan kitabı",
-      "link": "https://github.com/rust-lang-tr/dokuman/tree/master/rust-programlama-diline-giris",
-      "logo": "",
-      "yazar": "Dumindu Madunuwan"
   },
   {
       "ad": "Shell",

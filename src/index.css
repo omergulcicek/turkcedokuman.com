@@ -1,0 +1,55 @@
+:root {
+  --c-red: #e40310;
+  --c-black: #333;
+  --c-grey: #fcfafa;
+  --c-grey-dark: #818184;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background-color: var(--c-red);
+  color: #fff;
+}
+
+body {
+  color: #333;
+  background-color: var(--c-grey);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-feature-settings: "liga", "clig";
+  font-variant-ligatures: common-ligatures;
+  font-weight: 400;
+  line-height: 1.75;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 320px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+}
+
+turkcedokuman {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+  margin-bottom: 8px;
+  margin-top: 40px;
+  width: 100%;
+}
