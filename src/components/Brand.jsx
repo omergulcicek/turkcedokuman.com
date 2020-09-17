@@ -3,24 +3,24 @@ import styled from "styled-components"
 
 function App() {
   return (
-    <Brand href="!#">turkcedokuman<span>.com</span></Brand>
+    <>
+      <Brand>turkcedokuman<span>.com</span></Brand>
+      
+    </>
   );
 }
 
 export default App
 
-const Brand = styled.a`
+const Brand = styled.span`
   color: var(--c-red);
-  cursor: pointer;
+  cursor: default;
   font-size: 24px;
   font-weight: 600;
   line-height: 1;
+  user-select: none;
 
   span {
     color: var(--c-black);
-  }
-
-  &:hover {
-    color: var(--c-red);
   }
 `;
