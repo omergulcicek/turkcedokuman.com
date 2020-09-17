@@ -10,6 +10,7 @@ function App({document}) {
     e.ad.toLocaleLowerCase("tr-TR").indexOf(wordToSearch) > -1
     || e.aciklama.toLocaleLowerCase("tr-TR").indexOf(wordToSearch) > -1
     || e.yazar.toLocaleLowerCase("tr-TR").indexOf(wordToSearch) > -1
+    || e.etiket.toLocaleLowerCase("tr-TR").indexOf(wordToSearch) > -1
   )
   
   list.map(({ad, aciklama, link, logo, yazar}, i) => 
