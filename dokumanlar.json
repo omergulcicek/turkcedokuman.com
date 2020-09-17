@@ -1,107 +1,107 @@
 [
-    {
-        "ad": "CSS Stil Rehberi",
-        "aciklama": "CSS ve SASS için makul bir yaklaşım",
-        "link": "https://github.com/omergulcicek/css-stil-rehberi",
-        "logo": "css",
-        "yazar": "Ömer Gülçiçek"
-    },
-    {
-        "ad": "CSS Grid Layout",
-        "aciklama": "CSS Grid Layout Rehberi",
-        "link": "https://github.com/ahmetozantekin/css-grid-layout-rehberi",
-        "logo": "css",
-        "yazar": "Ahmet Ozan Tekin"
-    },
-    {
-        "ad": "ES6",
-        "aciklama": "ECMAScript 6",
-        "link": "https://github.com/omergulcicek/es6",
-        "logo": "es6",
-        "yazar": "Ömer Gülçiçek"
-    },
-    {
-        "ad": "Front-End Checklist",
-        "aciklama": "Modern sitelerin titiz geliştiricileri için Front-End Checklist",
-        "link": "https://github.com/eraycetinay/Front-End-Checklist",
-        "logo": "html",
-        "yazar": "Eray Çetinay"
-    },
-    {
-        "ad": "Gulp",
-        "aciklama": "JavaScript görev çalıştırıcısı",
-        "link": "https://github.com/omergulcicek/gulp",
-        "logo": "gulp",
-        "yazar": "Ömer Gülçiçek"
-    },
-    {
-        "ad": "JavaScript",
-        "aciklama": "JavaScript'e daha akıllıca bir yaklaşım",
-        "link": "https://github.com/eraycetinay/javascript",
-        "logo": "javascript",
-        "yazar": "Eray Çetinay"
-    },
-    {
-        "ad": "JavaScript Dersleri",
-        "aciklama": "Kolay konulardan daha zora doğru, basit fakat detaylı bir anlatım",
-        "link": "http://tr.javascript.info/",
-        "logo": "javascript",
-        "yazar": "javascript.info"
-    },
-    {
-        "ad": "Linux Eğitimi",
-        "aciklama": "Kali Linux üzerinden işlenen Linux komut satırı dersleri doküman kaynağıdır.",
-        "link": "https://github.com/taylanbildik/Linux_Dersleri",
-        "logo": "linux",
-        "yazar": "Taylan Özgür Bildik"
-    },
-    {
-        "ad": "Python",
-        "aciklama": "Python 3 için Türkçe Kılavuz ",
-        "link": "https://github.com/yazbel/python-istihza",
-        "logo": "python",
-        "yazar": "Fırat Özgül"
-    },   
-    {
-        "ad": "React",
-        "aciklama": "JavaScript kütüphanesi",
-        "link": "https://github.com/omergulcicek/react",
-        "logo": "react",
-        "yazar": "Ömer Gülçiçek"
-    },
-    {
-        "ad": "React Türkçe Kaynak",
-        "aciklama": "React.js öğrenmek için kullanabileceğiniz ücretsiz Türkçe kaynak.",
-        "link": "https://github.com/orcuntuna/react-turkce-kaynak",
-        "logo": "react",
-        "yazar": "Orçun Tuna"
-    },
-    {
-        "ad": "React",
-        "aciklama": "Kullanıcı arayüzleri geliştirebileceğiniz bir JavaScript kütüphanesi",
-        "link": "https://tr.reactjs.org/",
-        "logo": "react",
-        "yazar": "reactjs.org"
-    },
-    {
-        "ad": "React Native",
-        "aciklama": "Cross Platform native uygulama geliştirin",
-        "link": "https://ysfzrn.gitbooks.io/react-native-turkce/",
-        "logo": "react-native",
-        "yazar": "Yusuf Zeren"
-    },
-    {
-        "ad": "React Router",
-        "aciklama": "Tek sayfa uygulamalar geliştirin",
-        "link": "https://github.com/omergulcicek/react-router",
-        "logo": "router",
-        "yazar": "Ömer Gülçiçek"
-    },
-    {
-        "ad": "Shell",
-        "aciklama": "Shell Rehberi",
-        "link": "https://github.com/omergulen/bash-guide",
-        "logo": "shell",
-        "yazar": "Ömer Gülen"
-    }
+  {
+      "ad": "CSS Stil Rehberi",
+      "aciklama": "CSS ve SASS için makul bir yaklaşım",
+      "link": "https://github.com/omergulcicek/css-stil-rehberi",
+      "logo": "css",
+      "yazar": "Ömer Gülçiçek"
+  },
+  {
+      "ad": "CSS Grid Layout",
+      "aciklama": "CSS Grid Layout Rehberi",
+      "link": "https://github.com/ahmetozantekin/css-grid-layout-rehberi",
+      "logo": "css",
+      "yazar": "Ahmet Ozan Tekin"
+  },
+  {
+      "ad": "ES6",
+      "aciklama": "ECMAScript 6",
+      "link": "https://github.com/omergulcicek/es6",
+      "logo": "es6",
+      "yazar": "Ömer Gülçiçek"
+  },
+  {
+      "ad": "Frontend Checklist",
+      "aciklama": "Modern sitelerin titiz geliştiricileri için frontend checklist",
+      "link": "https://github.com/eraycetinay/Front-End-Checklist",
+      "logo": "html",
+      "yazar": "Eray Çetinay"
+  },
+  {
+      "ad": "Gulp",
+      "aciklama": "Kodlarınızı otomatikleştirmek ve geliştirmek için bir görev çalıştırıcısı",
+      "link": "https://github.com/omergulcicek/gulp",
+      "logo": "gulp",
+      "yazar": "Ömer Gülçiçek"
+  },
+  {
+      "ad": "JavaScript",
+      "aciklama": "JavaScript'e daha akıllıca bir yaklaşım",
+      "link": "https://github.com/eraycetinay/javascript",
+      "logo": "javascript",
+      "yazar": "Eray Çetinay"
+  },
+  {
+      "ad": "JavaScript",
+      "aciklama": "Kolay konulardan daha zora doğru, basit fakat detaylı bir anlatım",
+      "link": "http://tr.javascript.info/",
+      "logo": "javascript",
+      "yazar": "javascript.info"
+  },
+  {
+      "ad": "Linux",
+      "aciklama": "Kali Linux üzerinden işlenen Linux komut satırı dersleri doküman kaynağı",
+      "link": "https://github.com/taylanbildik/Linux_Dersleri",
+      "logo": "linux",
+      "yazar": "Taylan Özgür Bildik"
+  },
+  {
+      "ad": "Python",
+      "aciklama": "Python 3 için Türkçe Kılavuz ",
+      "link": "https://github.com/yazbel/python-istihza",
+      "logo": "python",
+      "yazar": "Fırat Özgül"
+  },   
+  {
+      "ad": "React",
+      "aciklama": "Kullanıcı arayüzleri geliştirebileceğiniz bir JavaScript kütüphanesi",
+      "link": "https://github.com/omergulcicek/react",
+      "logo": "react",
+      "yazar": "Ömer Gülçiçek"
+  },
+  {
+      "ad": "React",
+      "aciklama": "React.js öğrenmek için kullanabileceğiniz ücretsiz Türkçe kaynak.",
+      "link": "https://github.com/orcuntuna/react-turkce-kaynak",
+      "logo": "react",
+      "yazar": "Orçun Tuna"
+  },
+  {
+      "ad": "React",
+      "aciklama": "Kullanıcı arayüzleri geliştirebileceğiniz bir JavaScript kütüphanesi",
+      "link": "https://tr.reactjs.org/",
+      "logo": "react",
+      "yazar": "reactjs.org"
+  },
+  {
+      "ad": "React Native",
+      "aciklama": "Cross Platform native uygulama geliştirin",
+      "link": "https://ysfzrn.gitbooks.io/react-native-turkce/",
+      "logo": "react",
+      "yazar": "Yusuf Zeren"
+  },
+  {
+      "ad": "React Router",
+      "aciklama": "React ile tek sayfa uygulamalar geliştirin",
+      "link": "https://github.com/omergulcicek/react-router",
+      "logo": "router",
+      "yazar": "Ömer Gülçiçek"
+  },
+  {
+      "ad": "Shell",
+      "aciklama": "Shell Rehberi",
+      "link": "https://github.com/omergulen/bash-guide",
+      "logo": "shell",
+      "yazar": "Ömer Gülen"
+  }
 ]
