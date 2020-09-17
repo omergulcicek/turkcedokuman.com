@@ -17,10 +17,10 @@
 | angular  | css  | es6  | github  | grunt  | gulp  |
 | <img src="https://omergulcicek.com/img/html.png" height="32">  | <img src="https://omergulcicek.com/img/javascript.png" height="32">  | <img src="https://omergulcicek.com/img/jquery.png" height="32">  | <img src="https://omergulcicek.com/img/linux.png" height="32">  | <img src="https://omergulcicek.com/img/python.png" height="32">  | <img src="https://omergulcicek.com/img/react.png" height="32">  |
 | html  | javascript  | jquery  | linux  | python  | react  |
-| <img src="https://omergulcicek.com/img/react.png" height="32">  | <img src="https://omergulcicek.com/img/redux.png" height="32">  | <img src="https://omergulcicek.com/img/router.png" height="32">  | <img src="https://omergulcicek.com/img/sass.png" height="32">  | <img src="https://omergulcicek.com/img/shell.png" height="32">  | <img src="https://omergulcicek.com/img/rust.png" height="32">  |
-| react-native  |  redux  | router  | sass  | shell | rust |
-| <img src="https://omergulcicek.com/img/turkuazcss.png" height="32">  |   <img src="https://omergulcicek.com/img/vue.png" height="32">  |  <img src="https://omergulcicek.com/img/webpack.png" height="32">  | 
-| turkuaz  | vue  |  webpack  |
+| <img src="https://omergulcicek.com/img/react.png" height="32">  | <img src="https://omergulcicek.com/img/redux.png" height="32">  | <img src="https://omergulcicek.com/img/router.png" height="32">  | <img src="https://omergulcicek.com/img/rust.png" height="32">  | <img src="https://omergulcicek.com/img/sass.png" height="32">  | <img src="https://omergulcicek.com/img/shell.png" height="32">  |
+| react-native  |  redux  | router  | rust  | sass | shell |
+|   <img src="https://omergulcicek.com/img/vue.png" height="32">  |  <img src="https://omergulcicek.com/img/webpack.png" height="32">  | 
+| vue  |  webpack  |
 
 <i>Doküman logosu listede yoksa boş bırakın: `"logo": ""` (Logoyu listeye sonradan ekleyip, kodu güncelleyeceğim.)</i>
 

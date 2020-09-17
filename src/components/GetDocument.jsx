@@ -10,8 +10,8 @@ function App() {
     <div className="col-12 col-md-6 col-xl-4">
       <Card>
         <header>
-          <img src={`http://omergulcicek.com/img/${logo}.png`} alt="Logo" height="80" />
-
+          <img src={require(`../img/${logo}.png`)} alt="Logo" height="80" />
+          
           <div>
             <h2>{ad}</h2>
             <p>{aciklama}</p>
