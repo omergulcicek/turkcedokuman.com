@@ -19,11 +19,11 @@ function App() {
             </p>
 
             <p>
-              Proje açık kaynak ve kodları GitHub'tadır.
+              Proje açık kaynak ve kodları <a href="https://github.com/omergulcicek/turkcedokuman.com" target="_blank" rel="noopener noreferrer">GitHub</a>'tadır.
             </p>
           </div>
 
-          <Button href="!#" className="button is-large">Destek Ol</Button>
+          <Button href="https://github.com/omergulcicek/turkcedokuman.com" target="_blank" rel="noopener noreferrer" className="button is-large">Destek Ol</Button>
         </Flex>
       </div>
     </Footer>
