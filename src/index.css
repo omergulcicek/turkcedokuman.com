@@ -22,7 +22,7 @@
 
 body {
   color: #333;
-  background-color: var(--c-grey);
+  background-color: #1B1B1B;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
