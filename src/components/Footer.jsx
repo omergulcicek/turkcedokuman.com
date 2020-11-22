@@ -37,6 +37,7 @@ const Footer = styled.footer`
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   flex-shrink: 0;
   font-size: 13px;
+  margin-top: 40px;
   padding-bottom: 80px;
   padding-top: 80px;
 
