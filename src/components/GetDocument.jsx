@@ -6,7 +6,7 @@ function App({document}) {
   let result = []
   const wordToSearch = document.toLocaleLowerCase("tr-TR")
 
-  let list = turkcedokuman.filter(e => 
+  let list = shuffle(turkcedokuman).filter(e => 
     e.ad.toLocaleLowerCase("tr-TR").indexOf(wordToSearch) > -1
     || e.aciklama.toLocaleLowerCase("tr-TR").indexOf(wordToSearch) > -1
     || e.yazar.toLocaleLowerCase("tr-TR").indexOf(wordToSearch) > -1
@@ -59,6 +59,17 @@ return result;
 }
 
 export default App
+
+function shuffle(sourceArray) {
+  for (var i = 0; i < sourceArray.length - 1; i++) {
+      var j = i + Math.floor(Math.random() * (sourceArray.length - i));
+
+      var temp = sourceArray[j];
+      sourceArray[j] = sourceArray[i];
+      sourceArray[i] = temp;
+  }
+  return sourceArray;
+}
 
 const NotFound = styled.article`
   p {
