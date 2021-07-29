@@ -126,5 +126,13 @@
       "logo": "shell",
       "yazar": "Ömer Gülen",
       "etiket": "shell"
+  },
+  {
+      "ad": "TypeScript",
+      "aciklama": "TypeScript dökümantasyonun örneklerle desteklenmiş ve basite indirgenmiş hali",
+      "link": "https://github.com/afatihyavasi/TypeScript-Notlari",
+      "logo": " ",
+      "yazar": "Ahmet Fatih Yavaşi",
+      "etiket": "typescript,react"
   }
 ]
