@@ -120,6 +120,14 @@
       "etiket": "rust"
   },
   {
+    "ad": "Sentry.io",
+    "aciklama": "Sentry.io öğrenmek için kullanabileceğiniz ücretsiz Türkçe kaynak.",
+    "link": "https://bilalkarakollu.github.io/sentry-tr/",
+    "logo": "sentry",
+    "yazar": "Bilal Karakollu",
+    "etiket": "sentry, sentry-tr"
+  },
+  {
       "ad": "Shell",
       "aciklama": "Shell Rehberi",
       "link": "https://github.com/omergulen/bash-guide",
