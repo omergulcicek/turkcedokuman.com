@@ -1,0 +1,41 @@
+:root {
+  --c-primary: #dd1d15;
+  --c-secondary: #757575;
+  --c-gray: #f7f7f7;
+  --b-radius: 16px;
+  --b-radius-small: 12px;
+  --b-color: rgba(148, 163, 184, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--c-gray);
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: #2196f3;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "title": "CSS Stil Rehberi",
+    "desc": "CSS ve SASS için makul bir yaklaşım",
+    "url": "https://github.com/omergulcicek/css-stil-rehberi",
+    "logo": "css",
+    "author": "Ömer Gülçiçek",
+    "tags": "css,sass,scss,less"
+  },
+  {
+    "title": "CSS Grid Layout",
+    "desc": "CSS Grid Layout Rehberi",
+    "url": "https://github.com/ahmetozantekin/css-grid-layout-rehberi",
+    "logo": "css",
+    "author": "Ahmet Ozan Tekin",
+    "tags": "css,grid"
+  },
+  {
+    "title": "ES6",
+    "desc": "ECMAScript 6",
+    "url": "https://github.com/omergulcicek/es6",
+    "logo": "es6",
+    "author": "Ömer Gülçiçek",
+    "tags": "ecmascript,javascript"
+  },
+  {
+    "title": "Frontend Checklist",
+    "desc": "Modern sitelerin titiz geliştiricileri için frontend checklist",
+    "url": "https://github.com/eraycetinay/Front-End-Checklist",
+    "logo": "html",
+    "author": "Eray Çetinay",
+    "tags": "html"
+  },
+  {
+    "title": "Gulp",
+    "desc": "Kodlarınızı otomatikleştirmek ve geliştirmek için bir görev çalıştırıcısı",
+    "url": "https://github.com/omergulcicek/gulp",
+    "logo": "gulp",
+    "author": "Ömer Gülçiçek",
+    "tags": "gulp,javascript,css,sass,scss"
+  },
+  {
+    "title": "JavaScript",
+    "desc": "JavaScript'e daha akıllıca bir yaklaşım",
+    "url": "https://github.com/eraycetinay/javascript",
+    "logo": "javascript",
+    "author": "Eray Çetinay",
+    "tags": "javascript"
+  },
+  {
+    "title": "JavaScript",
+    "desc": "Kolay konulardan daha zora doğru, basit fakat detaylı bir anlatım",
+    "url": "http://tr.javascript.info/",
+    "logo": "javascript",
+    "author": "javascript.info",
+    "tags": "javascript"
+  },
+  {
+    "title": "Linux",
+    "desc": "Kali Linux üzerinden işlenen Linux komut satırı dersleri doküman kaynağı",
+    "url": "https://github.com/taylanbildik/Linux_Dersleri",
+    "logo": "linux",
+    "author": "Taylan Özgür Bildik",
+    "tags": "linux"
+  },
+  {
+    "title": "Python",
+    "desc": "Python 3 için Türkçe Kılavuz ",
+    "url": "https://github.com/yazbel/python-istihza",
+    "logo": "python",
+    "author": "Fırat Özgül",
+    "tags": "python"
+  },
+  {
+    "title": "React",
+    "desc": "Kullanıcı arayüzleri geliştirebileceğiniz bir JavaScript kütüphanesi",
+    "url": "https://github.com/omergulcicek/react",
+    "logo": "react",
+    "author": "Ömer Gülçiçek",
+    "tags": "react,javascript"
+  },
+  {
+    "title": "React",
+    "desc": "React.js öğrenmek için kullanabileceğiniz ücretsiz Türkçe kaynak.",
+    "url": "https://github.com/orcuntuna/react-turkce-kaynak",
+    "logo": "react",
+    "author": "Orçun Tuna",
+    "tags": "react,javascript"
+  },
+  {
+    "title": "React",
+    "desc": "Kullanıcı arayüzleri geliştirebileceğiniz bir JavaScript kütüphanesi",
+    "url": "https://tr.reactjs.org/",
+    "logo": "react",
+    "author": "reactjs.org",
+    "tags": "react,javascript"
+  },
+  {
+    "title": "React Native",
+    "desc": "Cross Platform native uygulama geliştirin",
+    "url": "https://ysfzrn.gitbooks.io/react-native-turkce/",
+    "logo": "react-native",
+    "author": "Yusuf Zeren",
+    "tags": "react,javascript,native"
+  },
+  {
+    "title": "React Router",
+    "desc": "React ile tek sayfa uygulamalar geliştirin",
+    "url": "https://github.com/omergulcicek/react-router",
+    "logo": "react-router",
+    "author": "Ömer Gülçiçek",
+    "tags": "react,javascript,router,spa"
+  },
+  {
+    "title": "Rust",
+    "desc": "Dumindu Mtitleunuwan tarafından yazılan Learning Rust titlelı kitabı",
+    "url": "https://github.com/RustDili/Rust-Ogrenmek",
+    "logo": "rust",
+    "author": "Dumindu Mtitleunuwan",
+    "tags": "rust"
+  },
+  {
+    "title": "Sentry.io",
+    "desc": "Sentry.io öğrenmek için kullanabileceğiniz ücretsiz Türkçe kaynak.",
+    "url": "https://bilalkarakollu.github.io/sentry-tr/",
+    "logo": "sentry",
+    "author": "Bilal Karakollu",
+    "tags": "sentry, sentry-tr"
+  },
+  {
+    "title": "Shell",
+    "desc": "Shell Rehberi",
+    "url": "https://github.com/omergulen/bash-guide",
+    "logo": "shell",
+    "author": "Ömer Gülen",
+    "tags": "shell"
+  },
+  {
+    "title": "TypeScript",
+    "desc": "TypeScript dökümantasyonun örneklerle desteklenmiş ve basite indirgenmiş hali",
+    "url": "https://github.com/afatihyavasi/TypeScript-Notlari",
+    "logo": "typescript",
+    "author": "Ahmet Fatih Yavaşi",
+    "tags": "typescript,react"
+  }
+]

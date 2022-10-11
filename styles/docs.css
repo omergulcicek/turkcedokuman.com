@@ -1,0 +1,186 @@
+.card:hover a {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+svg {
+  fill: currentColor;
+}
+
+.docs {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 40px 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  }
+}
+
+.card {
+  border-radius: var(--b-radius);
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  cursor: default;
+  display: flex;
+  overflow: hidden;
+  padding-top: 48px;
+  transition: 0.3s;
+}
+
+.card:hover .content {
+  transform: scale(1.02);
+}
+
+.card.html {
+  background: #f12711;
+  background: linear-gradient(to left, #f5af19, #f12711);
+}
+
+.card.css {
+  background: #2f51e2;
+  background: linear-gradient(to right, #6fb1fc, #4364f7, #2f51e2);
+}
+
+.card.javascript {
+  background: #cac531;
+  background: linear-gradient(to left, #cac531, #f3f9a7);
+}
+
+.card.es6 {
+  background: #ffe000;
+  background: linear-gradient(to right, #ffe000, #799f0c);
+}
+
+.card.gulp {
+  background: #bc4e9c;
+  background: linear-gradient(to left, #bc4e9c, #f80759);
+}
+
+.card.react {
+  background: #2193b0;
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+}
+
+.card.react-native {
+  background: #7f7fd5;
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+}
+
+.card.react-router {
+  background: #c31432;
+  background: linear-gradient(to right, #c31432, #240b36);
+}
+
+.card.rust {
+  background: #000;
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.card.linux {
+  background: #3c3b3f;
+  background: linear-gradient(to right, #605c3c, #3c3b3f);
+}
+
+.card.sentry {
+  background: #232526;
+  background: linear-gradient(to right, #414345, #232526);
+}
+
+.card.typescript {
+  background: #000428;
+  background: linear-gradient(to right, #004e92, #000428);
+}
+
+.card.shell {
+  background: #ece9e6;
+  background: linear-gradient(to left, #ffffff, #ece9e6);
+}
+
+.card.python {
+  background: #004ff9;
+  background: linear-gradient(to left, #fff94c, #004ff9);
+}
+
+.content {
+  align-items: flex-start;
+  background-color: #fff;
+  border: 1px solid var(--b-color);
+  border-radius: var(--b-radius-small);
+  display: flex;
+  flex: 1;
+  gap: 16px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.img {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid var(--b-color);
+  border-radius: var(--b-radius-small);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  display: flex;
+  height: 64px;
+  justify-content: center;
+  margin: 0;
+  left: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: -36px;
+  width: 64px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 16px 0 0;
+}
+
+.desc {
+  color: var(--c-secondary);
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.badges {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.badges::before {
+  content: "";
+  border-top: 2px solid var(--b-color);
+  height: 1px;
+  left: 8px;
+  position: absolute;
+  width: 95%;
+}
+
+.badge {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid var(--b-color);
+  border-radius: var(--b-radius);
+  display: inline-flex;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 8px;
+  z-index: 1;
+}
