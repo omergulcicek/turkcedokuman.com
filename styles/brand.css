@@ -1,5 +1,5 @@
 .brand {
-  color: #000;
+  color: #000 !important;
   font-size: 26px;
   font-weight: 500;
   margin: 0 0 24px;

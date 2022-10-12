@@ -21,6 +21,10 @@ footer .flex {
   justify-content: space-between;
 }
 
+footer .flex div:first-child {
+  color: var(--c-secondary);
+}
+
 footer .flex div:last-child {
   align-items: flex-end;
   display: flex;
