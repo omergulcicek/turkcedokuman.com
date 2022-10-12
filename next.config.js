@@ -1,7 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
+module.exports = {
+  // https://stackoverflow.com/a/68691247
+  assetPrefix: "./",
 
-module.exports = nextConfig
+  // https://stackoverflow.com/a/64715745
+  exportTrailingSlash: true,
+}
