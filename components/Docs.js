@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { useState } from "react"
 
-import docsData from "./../public/turkcedokuman.json"
+import docsData from "../public/turkcedokuman.json"
 
 export default function Docs() {
   const [docs, setDocs] = useState(docsData)
