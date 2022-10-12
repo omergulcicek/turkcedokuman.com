@@ -32,9 +32,9 @@ Eklenecek örnek bir data:
 {
     "title": "proje adı",
     "desc": "proje açıklaması",
-    "url": "https://github.com/omergulcicek/turkuazcss",
+    "url": "proje linki",
     "logo": "css",
-    "yazar": "adınız",
+    "author": "adınız",
     "tags": "css,react"
 }
 ```

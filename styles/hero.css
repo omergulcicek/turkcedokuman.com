@@ -6,33 +6,6 @@
   text-align: center;
 }
 
-h1 {
-  font-size: clamp(1rem, 1.4452rem + 2.0968vw, 5.8rem);
-  margin: 0 0 80px;
-  position: relative;
-  z-index: 1000;
-}
-
-h1::before {
-  color: var(--b-color);
-  content: "turkcedokuman.com";
-  font-size: clamp(1rem, 1.4452rem + 2.0968vw, 5.8rem);
-  position: absolute;
-  top: 8px;
-  left: 50%;
-  z-index: 1;
-  transform: translateX(-50%);
-}
-
-h1 span {
-  z-index: 1;
-  position: relative;
-}
-
-h1 span:first-child {
-  color: var(--c-primary);
-}
-
 .hero p {
   color: #000;
   font-size: 20px;

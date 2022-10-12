@@ -1,0 +1,34 @@
+footer {
+  background-color: #fff;
+  padding: 96px 0 80px;
+}
+
+footer a {
+  color: var(--c-secondary);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer strong {
+  color: #000;
+}
+
+footer .flex {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .flex div:last-child {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer ul {
+  list-style: none;
+  line-height: 24px;
+}

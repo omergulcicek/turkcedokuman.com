@@ -29,9 +29,13 @@ svg {
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   cursor: default;
   display: flex;
+  margin: auto;
+  min-width: 340px;
+  max-width: 600px;
   overflow: hidden;
   padding-top: 48px;
   transition: 0.3s;
+  width: 100%;
 }
 
 .card:hover .content {
@@ -183,4 +187,26 @@ svg {
   font-weight: 500;
   padding: 4px 8px;
   z-index: 1;
+}
+
+.input {
+  margin-bottom: 56px;
+  text-align: center;
+}
+
+input {
+  border: 1px solid var(--b-color);
+  border-radius: var(--b-radius-small);
+  display: inline-block;
+  font-size: 16px;
+  height: 48px;
+  max-width: 90%;
+  outline: 0;
+  padding: 0 16px;
+  transition: box-shadow 0.2s ease;
+  width: 400px;
+}
+
+input:focus {
+  box-shadow: 0 0 0 3px rgb(0 209 178 / 25%);
 }

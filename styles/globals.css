@@ -35,6 +35,10 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  main {
+    margin-bottom: 120px;
+  }
+
   .container {
     width: 80%;
   }

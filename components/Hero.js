@@ -1,11 +1,10 @@
+import Brand from "./Brand"
+
 const Hero = () => (
   <>
     <section className="hero">
       <div className="container">
-        <h1>
-          <span>turkcedokuman</span>
-          <span>.com</span>
-        </h1>
+        <Brand></Brand>
 
         <p>
           Bir yazılım dili/kütüphanesi/araçları hakkında sıfırdan eğitim veren

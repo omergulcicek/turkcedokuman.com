@@ -2,6 +2,7 @@ import Head from "next/head"
 
 import Hero from "./../components/Hero"
 import Docs from "./../components/Docs"
+import Footer from "./../components/Footer"
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
         <Docs />
       </main>
 
-      <footer></footer>
+      <Footer />
     </>
   )
 }
