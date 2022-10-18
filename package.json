@@ -1,32 +1,12 @@
 {
   "name": "turkcedokuman.com",
-  "version": "2.0.0",
   "description": "Yazılım alanında sıfırdan eğitim veren Türkçe dokümanlar",
   "author": {
     "name": "Ömer Gülçiçek",
     "email": "iletisim@omergulcicek.com",
     "url": "https://omergulcicek.com"
   },
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
-    "styled-components": "^5.2.0",
-    "turkuaz": "^0.41.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/omergulcicek/turkce-dokuman.git"
@@ -35,17 +15,20 @@
   "bugs": {
     "url": "https://github.com/omergulcicek/turkce-dokuman/issues"
   },
-  "license": "MIT",
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1"
   }
 }

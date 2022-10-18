@@ -1,0 +1,36 @@
+.hero {
+  background-color: #fff;
+  height: 40%;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.hero p {
+  color: var(--c-secondary);
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.hero .brand {
+  font-size: clamp(1.2rem, 1.4452rem + 2.0968vw, 5.8rem);
+}
+
+.button {
+  align-items: center;
+  background-color: var(--c-primary);
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  gap: 8px;
+  font-size: 16px;
+  line-height: 1;
+  padding: 12px 16px;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}

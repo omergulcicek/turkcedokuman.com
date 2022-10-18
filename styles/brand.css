@@ -1,0 +1,11 @@
+.brand {
+  color: #000 !important;
+  font-size: 26px;
+  font-weight: 500;
+  margin: 0 0 24px;
+  position: relative;
+}
+
+.brand span:last-child {
+  color: var(--c-primary);
+}
