@@ -64,6 +64,14 @@
     "tags": "linux"
   },
   {
+    "title": "Next.js",
+    "desc": "Next.js öğrenmek için kullanabileceğiniz ücretsiz Türkçe kaynak.",
+    "url": "https://nextjs-tr.org/",
+    "logo": "next",
+    "author": "Bilal Karakollu",
+    "tags": "next.js, react, javascript"
+  },
+  {
     "title": "Python",
     "desc": "Python 3 için Türkçe Kılavuz ",
     "url": "https://github.com/yazbel/python-istihza",
