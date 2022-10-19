@@ -112,6 +112,10 @@ svg {
   background: linear-gradient(to left, #fff94c, #004ff9);
 }
 
+.card.next {
+  background: #000;
+}
+
 .content {
   align-items: flex-start;
   background-color: #fff;
