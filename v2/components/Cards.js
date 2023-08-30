@@ -7,7 +7,7 @@ export default function Cards({ filteredItems, searchText }) {
   return (
     <>
       <section className="mt-10 flex justify-center flex-wrap">
-        {searchText === "123" && <AddCard />}
+        {searchText === "" && <AddCard />}
 
         {filteredItems?.map((item, index) => (
           <Card {...item} key={index} />

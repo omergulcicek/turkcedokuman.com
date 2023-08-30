@@ -7,8 +7,8 @@ export default function Card({ title, desc, logo, author, avatar, url }) {
   return (
     <>
       <Tilt>
-        <article className="m-[10px] h-40 w-80 select-none p-[1px] border dark:border-neutral-800 rounded-lg">
-          <div className="bg-gradient-to-t dark:from-neutral-800 dark:to-neutral-900 relative flex h-full flex-col justify-between p-4 transition">
+        <article className="m-[10px] h-40 w-80 select-none p-[1px] border dark:border-neutral-800 rounded-lg overflow-hidden">
+          <div className="bg-gradient-to-t dark:from-neutral-800 dark:to-neutral-900 hover:bg-white relative flex h-full flex-col justify-between p-4 transition">
             <Link
               href={url}
               target="_blank"
@@ -24,7 +24,7 @@ export default function Card({ title, desc, logo, author, avatar, url }) {
                     {author}
                   </h3>
                 </div>
-                <figure className="h-auto w-auto rounded-md bg-neutral-200 p-1 text-[10px] text-neutral-400 dark:bg-neutral-600/30 dark:text-neutral-500">
+                <figure className="h-auto w-auto rounded-md bg-white border dark:border-neutral-800 p-1 text-[10px] text-neutral-400 dark:bg-neutral-600/30 dark:text-neutral-500">
                   {getLogoSvg(logo)}
                 </figure>
               </header>
