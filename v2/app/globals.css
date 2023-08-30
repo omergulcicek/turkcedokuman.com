@@ -19,8 +19,7 @@
 }
 
 body {
-  background-color: #f5f5f5;
-  background-color: #232323;
-  color: rgb(var(--foreground-rgb));
-  color: black;
+  background-color: #121212;
+  background-color: #fafafa;
+  color: #121212;
 }

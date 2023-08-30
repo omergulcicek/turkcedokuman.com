@@ -2,26 +2,28 @@ import { getFilteredItems } from "@/utils"
 import items from "./../public/data.json"
 
 export const getResultText = (searchText) => {
+  const itemLenght = items.length
   const filteredItems = getFilteredItems(searchText)
+  const filteredItemsLenght = filteredItems.length
 
   if (searchText === "") {
     return (
       <>
-        Toplam
-        <b className="ml-1 text-purple-500">{items.length}</b> adet doküman
-        bulundu.
+        <span>Toplam</span>
+        <b>{itemLenght}</b>
+        <span> adet doküman bulundu.</span>
       </>
     )
   }
-  if (filteredItems.length > 0) {
+  if (filteredItemsLenght > 0) {
     return (
       <>
-        Toplam
-        <b className="ml-1 text-purple-500">{filteredItems.length}</b> adet
-        doküman bulundu.
+        <span>Toplam</span>
+        <b>{filteredItemsLenght}</b>
+        <span> adet doküman bulundu.</span>
       </>
     )
   } else {
-    return <>Hiç doküman bulunamadı 🥲</>
+    return <span>Hiç doküman bulunamadı 🥲</span>
   }
 }

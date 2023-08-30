@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 
-import { Cards, Input } from "@/components"
+import { Input, Cards } from "@/components"
 import { getFilteredItems, getResultText } from "@/utils"
 
 export default function Wrapper() {
