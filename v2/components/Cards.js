@@ -1,4 +1,4 @@
-import Card from "./Card"
+import { Card, Card2 } from "@/components"
 import AddCard from "./AddCard"
 
 export default function Cards({ filteredItems, searchText }) {
@@ -6,8 +6,8 @@ export default function Cards({ filteredItems, searchText }) {
 
   return (
     <>
-      <section className="w-3/4 max-w-7xl m-auto grid grid-cols-4 gap-4">
-        {searchText === "" && <AddCard />}
+      <section className="mt-10 flex justify-center flex-wrap">
+        {searchText === "123" && <AddCard />}
 
         {filteredItems?.map((item, index) => (
           <Card {...item} key={index} />

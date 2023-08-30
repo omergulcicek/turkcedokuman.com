@@ -1,40 +1,41 @@
 import Link from "next/link"
+import Tilt from "react-parallax-tilt"
+
 import { getLogoSvg } from "../utils/getLogo"
 
 export default function Card({ title, desc, logo, author, avatar, url }) {
   return (
     <>
-      <article className="bg-white border rounded-md p-4 transition-transform cursor-pointer hover:scale-105">
-        <Link
-          href={url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex flex-col justify-between gap-8 h-full"
-        >
-          <div className="flex flex-col items-center gap-3">
-            {getLogoSvg(logo)}
+      <Tilt>
+        <article className="m-[10px] h-40 w-80 select-none p-[1px] border dark:border-neutral-800 rounded-lg">
+          <div className="bg-gradient-to-t dark:from-neutral-800 dark:to-neutral-900 relative flex h-full flex-col justify-between p-4 transition">
+            <Link
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col justify-between gap-8 h-full"
+            >
+              <header className="align-center flex flex-wrap justify-between">
+                <div>
+                  <h2 className="text-base font-medium text-neutral-600 dark:text-neutral-300">
+                    {title}
+                  </h2>
+                  <h3 className="text-xs text-neutral-500 dark:text-neutral-500">
+                    {author}
+                  </h3>
+                </div>
+                <figure className="h-auto w-auto rounded-md bg-neutral-200 p-1 text-[10px] text-neutral-400 dark:bg-neutral-600/30 dark:text-neutral-500">
+                  {getLogoSvg(logo)}
+                </figure>
+              </header>
 
-            <strong className="text-base">{title}</strong>
-
-            <p className="text-neutral-400 text-sm">{desc}</p>
+              <footer className="text-xs text-neutral-500 dark:text-neutral-500">
+                {desc}
+              </footer>
+            </Link>
           </div>
-
-          <div className="flex items-center justify-center gap-2">
-            <figure className="flex bg-gray-200 h-8 w-8 rounded-full overflow-hidden">
-              {avatar && (
-                <img
-                  src={`${avatar}?v=${new Date().getDay()}`}
-                  alt={title}
-                  height={32}
-                  width={32}
-                />
-              )}
-            </figure>
-
-            <span className="text-sm">{author}</span>
-          </div>
-        </Link>
-      </article>
+        </article>
+      </Tilt>
     </>
   )
 }
