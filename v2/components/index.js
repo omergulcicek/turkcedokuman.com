@@ -1,3 +1,4 @@
+export { default as Brand } from "./Brand"
 export { default as Cards } from "./Cards"
 export { default as AddCard } from "./AddCard"
 export { default as Card } from "./Card"

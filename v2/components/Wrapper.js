@@ -22,7 +22,7 @@ export default function Wrapper() {
 
   return (
     <MainContext.Provider value={data}>
-      <div className="container mx-auto flex min-h-screen flex-col p-3">
+      <div className="container mx-auto flex flex-col p-3">
         <Input />
         <Cards />
       </div>

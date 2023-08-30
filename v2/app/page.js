@@ -1,5 +1,5 @@
 import Wrapper from "../components/Wrapper"
-import Brand from "../components/Brand"
+import Header from "../components/Header"
 
 export const metadata = {
   title: "Türkçe Doküman",
@@ -9,7 +9,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <Brand />
+      <Header />
       <Wrapper />
     </>
   )
