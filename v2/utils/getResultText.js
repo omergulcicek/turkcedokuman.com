@@ -23,7 +23,5 @@ export const getResultText = (searchText) => {
         <span> adet doküman bulundu.</span>
       </>
     )
-  } else {
-    return <span>Hiç doküman bulunamadı 🥲</span>
   }
 }
