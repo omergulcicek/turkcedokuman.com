@@ -10,7 +10,7 @@ export default function Cards({ filteredItems, searchText }) {
         {searchText === "" && <AddCard />}
 
         {filteredItems?.map((item, index) => (
-          <Card {...item} key={index} />
+          <Card {...item} key={index} searchText={searchText} />
         ))}
       </section>
     </>
