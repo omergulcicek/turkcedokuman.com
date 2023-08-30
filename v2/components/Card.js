@@ -1,12 +1,11 @@
 import Link from "next/link"
 import Tilt from "react-parallax-tilt"
-import Pulse from "react-reveal/Pulse"
 
 import { getLogoSvg } from "../utils/getLogo"
 
-export default function Card({ title, desc, logo, author, avatar, url }) {
+export default function Card({ title, desc, logo, author, url }) {
   return (
-    <Pulse>
+    <>
       <Tilt>
         <article className="m-[10px] h-40 w-80 select-none p-[1px] border dark:border-neutral-800 rounded-lg overflow-hidden">
           <div className="bg-gradient-to-t dark:from-neutral-800 dark:to-neutral-900 hover:bg-white relative flex h-full flex-col justify-between p-4 transition">
@@ -37,6 +36,6 @@ export default function Card({ title, desc, logo, author, avatar, url }) {
           </div>
         </article>
       </Tilt>
-    </Pulse>
+    </>
   )
 }

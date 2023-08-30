@@ -1,4 +1,8 @@
-export default function Input({ searchText, setSearchText, resultText }) {
+import { MainContext, useContext } from "./context"
+
+export default function Input() {
+  const { searchText, setSearchText, resultText } = useContext(MainContext)
+
   return (
     <div
       className={`relative mx-2 mb-10  flex flex-col items-center justify-center drop-shadow-lg transition-all ${
