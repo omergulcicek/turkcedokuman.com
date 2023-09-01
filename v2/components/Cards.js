@@ -1,6 +1,6 @@
 import { MainContext, useContext } from "./context"
 
-import { AddCard, Card, NotFound } from "@/components"
+import { Card, NotFound } from "@/components"
 
 export default function Cards() {
   const { filteredItems } = useContext(MainContext)
