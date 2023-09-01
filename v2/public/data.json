@@ -5,7 +5,6 @@
     "url": "https://github.com/omergulcicek/css-stil-rehberi",
     "logo": "css",
     "author": "Ömer Gülçiçek",
-    "avatar": "https://avatars.githubusercontent.com/u/13813170",
     "tags": "css,sass,scss,less"
   },
   {
@@ -14,7 +13,6 @@
     "url": "https://github.com/ahmetozantekin/css-grid-layout-rehberi",
     "logo": "css",
     "author": "Ahmet Ozan Tekin",
-    "avatar": "https://avatars.githubusercontent.com/u/3971877",
     "tags": "css,grid"
   },
   {
@@ -23,7 +21,6 @@
     "url": "https://github.com/omergulcicek/es6",
     "logo": "es6",
     "author": "Ömer Gülçiçek",
-    "avatar": "https://avatars.githubusercontent.com/u/13813170",
     "tags": "ecmascript,javascript"
   },
   {
@@ -32,7 +29,6 @@
     "url": "https://github.com/eraycetinay/Front-End-Checklist",
     "logo": "html",
     "author": "Eray Çetinay",
-    "avatar": "https://avatars.githubusercontent.com/u/5578433",
     "tags": "html"
   },
   {
@@ -41,7 +37,6 @@
     "url": "https://github.com/omergulcicek/gulp",
     "logo": "gulp",
     "author": "Ömer Gülçiçek",
-    "avatar": "https://avatars.githubusercontent.com/u/13813170",
     "tags": "gulp,javascript,css,sass,scss"
   },
   {
@@ -50,7 +45,6 @@
     "url": "https://github.com/eraycetinay/javascript",
     "logo": "javascript",
     "author": "Eray Çetinay",
-    "avatar": "https://avatars.githubusercontent.com/u/5578433",
     "tags": "javascript"
   },
   {
@@ -67,7 +61,6 @@
     "url": "https://github.com/taylanbildik/Linux_Dersleri",
     "logo": "linux",
     "author": "Taylan Özgür Bildik",
-    "avatar": "https://avatars.githubusercontent.com/u/34001728",
     "tags": "linux"
   },
   {
@@ -76,7 +69,6 @@
     "url": "https://nextjs-tr.org/",
     "logo": "next",
     "author": "Bilal Karakollu",
-    "avatar": "https://avatars.githubusercontent.com/u/47141344",
     "tags": "next.js, react, javascript"
   },
   {
@@ -85,7 +77,6 @@
     "url": "https://github.com/yazbel/python-istihza",
     "logo": "python",
     "author": "Fırat Özgül",
-    "avatar": "https://avatars.githubusercontent.com/u/29818818",
     "tags": "python"
   },
   {
@@ -94,7 +85,6 @@
     "url": "https://github.com/omergulcicek/react",
     "logo": "react",
     "author": "Ömer Gülçiçek",
-    "avatar": "https://avatars.githubusercontent.com/u/13813170",
     "tags": "react,javascript"
   },
   {
@@ -103,7 +93,6 @@
     "url": "https://github.com/orcuntuna/react-turkce-kaynak",
     "logo": "react",
     "author": "Orçun Tuna",
-    "avatar": "https://avatars.githubusercontent.com/u/22179849",
     "tags": "react,javascript"
   },
   {
@@ -120,7 +109,6 @@
     "url": "https://ysfzrn.gitbooks.io/react-native-turkce/",
     "logo": "react-native",
     "author": "Yusuf Zeren",
-    "avatar": "https://avatars.githubusercontent.com/u/15312525",
     "tags": "react,javascript,native"
   },
   {
@@ -129,7 +117,6 @@
     "url": "https://github.com/omergulcicek/react-router",
     "logo": "react-router",
     "author": "Ömer Gülçiçek",
-    "avatar": "https://avatars.githubusercontent.com/u/13813170",
     "tags": "react,javascript,router,spa"
   },
   {
@@ -138,7 +125,6 @@
     "url": "https://github.com/RustDili/Rust-Ogrenmek",
     "logo": "rust",
     "author": "Dumindu Mtitleunuwan",
-    "avatar": "https://avatars.githubusercontent.com/u/57715293",
     "tags": "rust"
   },
   {
@@ -147,7 +133,6 @@
     "url": "https://bilalkarakollu.github.io/sentry-tr/",
     "logo": "sentry",
     "author": "Bilal Karakollu",
-    "avatar": "https://avatars.githubusercontent.com/u/47141344",
     "tags": "sentry, sentry-tr"
   },
   {
@@ -156,7 +141,6 @@
     "url": "https://github.com/omergulen/bash-guide",
     "logo": "shell",
     "author": "Ömer Gülen",
-    "avatar": "https://avatars.githubusercontent.com/u/26525137",
     "tags": "shell"
   },
   {
@@ -165,7 +149,6 @@
     "url": "https://github.com/afatihyavasi/TypeScript-Notlari",
     "logo": "typescript",
     "author": "Ahmet Fatih Yavaşi",
-    "avatar": "https://avatars.githubusercontent.com/u/22716658",
     "tags": "typescript,react"
   }
 ]
