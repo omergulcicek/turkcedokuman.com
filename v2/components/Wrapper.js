@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useMemo } from "react"
 
 import { Input, Cards } from "@/components"
 import { getFilteredItems, getResultText } from "@/utils"
@@ -10,8 +10,12 @@ import { MainContext } from "./context"
 export default function Wrapper() {
   const [searchText, setSearchText] = useState("")
 
-  const resultText = getResultText(searchText)
-  const filteredItems = getFilteredItems(searchText)
+  const resultText = useMemo(() => getResultText(searchText), [searchText])
+
+  const filteredItems = useMemo(
+    () => getFilteredItems(searchText),
+    [searchText]
+  )
 
   const data = {
     searchText,
