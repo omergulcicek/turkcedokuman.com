@@ -3,12 +3,19 @@ import Tilt from "react-parallax-tilt"
 
 import { getLogoSvg } from "../utils/getLogo"
 
-export default function Card({ title, desc, logo, author, url }) {
+export default function Card({
+  data: { title, desc, logo, author, url },
+  isAddCard,
+}) {
   return (
     <>
-      <Tilt>
-        <article className="m-[10px] h-40 w-80 select-none p-[1px] border rounded-lg overflow-hidden">
-          <div className="bg-gradient-to-t hover:bg-white relative flex h-full flex-col justify-between p-4 transition">
+      <Tilt tiltEnable={!isAddCard}>
+        <article
+          className={`m-[10px] h-40 w-80 select-none p-[1px] border rounded-lg overflow-hidden ${
+            isAddCard ? "border-dashed" : ""
+          }`}
+        >
+          <div className="bg-gradient-to-t bg-white relative flex h-full flex-col justify-between p-4 transition">
             <Link
               href={url}
               target="_blank"
@@ -22,7 +29,11 @@ export default function Card({ title, desc, logo, author, url }) {
                   </h2>
                   <h3 className="text-xs text-neutral-500">{author}</h3>
                 </div>
-                <figure className="h-auto w-auto rounded-md bg-white border p-1 text-[10px] text-neutral-400">
+                <figure
+                  className={`h-auto w-auto rounded-md bg-white border p-1 text-[10px] text-neutral-400 ${
+                    isAddCard ? "border-dashed" : ""
+                  }`}
+                >
                   {getLogoSvg(logo)}
                 </figure>
               </header>
