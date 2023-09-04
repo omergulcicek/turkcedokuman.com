@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Türkçe Doküman</h1>
 
-## Getting Started
+<h3><a href="https://turkcedokuman.com/">turkcedokuman.com</a></h3>
 
-First, run the development server:
+**<a href="https://github.com/omergulcicek/turkcedokuman.com/blob/master/src/turkcedokuman.json">src klasörünün altında ki turkcedokuman.json</a>**'a pull request yapınız. (_Doküman adına göre alfabetik olarak listeye ekleyiniz._)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+`logo` kısmına dokümanın kategori adını yazın. (<i>Örneğin `"logo": "react"`</i>)
+
+Şu logoları kullanabilirsiniz:
+
+| <img src="https://omergulcicek.com/img/angular.png" height="32"> |    <img src="https://omergulcicek.com/img/css.png" height="32">     |  <img src="https://omergulcicek.com/img/es6.png" height="32">   | <img src="https://omergulcicek.com/img/github.png" height="32"> | <img src="https://omergulcicek.com/img/grunt.png" height="32">  | <img src="https://omergulcicek.com/img/gulp.png" height="32">  |
+| :--------------------------------------------------------------: | :-----------------------------------------------------------------: | :-------------------------------------------------------------: | :-------------------------------------------------------------: | :-------------------------------------------------------------: | :------------------------------------------------------------: |
+|                             angular                              |                                 css                                 |                               es6                               |                             github                              |                              grunt                              |                              gulp                              |
+|  <img src="https://omergulcicek.com/img/html.png" height="32">   | <img src="https://omergulcicek.com/img/javascript.png" height="32"> | <img src="https://omergulcicek.com/img/jquery.png" height="32"> | <img src="https://omergulcicek.com/img/linux.png" height="32">  | <img src="https://omergulcicek.com/img/python.png" height="32"> | <img src="https://omergulcicek.com/img/react.png" height="32"> |
+|                               html                               |                             javascript                              |                             jquery                              |                              linux                              |                             python                              |                             react                              |
+|  <img src="https://omergulcicek.com/img/react.png" height="32">  |   <img src="https://omergulcicek.com/img/redux.png" height="32">    | <img src="https://omergulcicek.com/img/router.png" height="32"> |  <img src="https://omergulcicek.com/img/rust.png" height="32">  |  <img src="https://omergulcicek.com/img/sass.png" height="32">  | <img src="https://omergulcicek.com/img/shell.png" height="32"> |
+|                           react-native                           |                                redux                                |                             router                              |                              rust                               |                              sass                               |                             shell                              |
+|   <img src="https://omergulcicek.com/img/vue.png" height="32">   |  <img src="https://omergulcicek.com/img/webpack.png" height="32">   |
+|                               vue                                |                               webpack                               |
+
+<i>Doküman logosu listede yoksa boş bırakın: `"logo": ""` (Logoyu listeye sonradan ekleyip, kodu güncelleyeceğim.)</i>
+
+Proje adını olabildiğince sade yazın, eklemeler yapmayın. Örneğin "_React_" olabilir fakat "_React'a Giriş Dokümanı_" yada "_React Türkçe Doküman_" tarzı başlıklardan kaçının. Detayları açıklama alanına yazabilirsiniz; Eğer çeviriyi bir siteden yaptıysanız, sitenin orijinal açıklamasını Türkçe'ye çevirmeye öncelik gösterin.
+
+Projeleri **alfabetik** sıralamaya göre eklemeye özen gösterin.
+
+`etiket` kısmına site içerisinde arama yapıldığında dokümanınızın kolay bulunabilmesi için anahtar kelimeleri yazın yada boş bırakın (<i>Örneğin `"tags": "react,javascript,es6"` yada `"tags": ""`</i>).
+
+Eklenecek örnek bir data:
+
+```js
+{
+    "title": "proje adı",
+    "desc": "proje açıklaması",
+    "url": "proje linki",
+    "logo": "css",
+    "author": "adınız",
+    "tags": "css,react"
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<a href="https://turkcedokuman.com">turkcedokuman.com</a>, bir yazılım dili/kütüphanesi/araçları hakkında **sıfırdan eğitim** veren dokümanların toplandığı bir projedir.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Belli bir konu hakkında 1-2 sayfalık makale yada video içerikleri listeye eklemeyiniz.
+Bu tarz içerikleri <a href="https://github.com/fatihacet/turkcekaynaklar-com">Türkçe Kaynaklar</a> projesine ekleyerek destek olabilirsiniz.
