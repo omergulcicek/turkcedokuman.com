@@ -9,7 +9,10 @@ export default function Header() {
     <>
       <header className="border-b bg-white p-6">
         <div className="container flex items-center justify-between m-auto">
-          <Brand />
+          <div className="flex gap-3">
+            <Brand />
+            <button>+</button>
+          </div>
 
           <div>
             <a

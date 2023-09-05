@@ -1,7 +1,7 @@
 export default function Brand() {
   return (
     <>
-      <h1 className="cursor-pointer select-none">
+      <h1 className="inline-flex items-baseline cursor-pointer select-none">
         <span className="text-neutral-900 text-2xl font-semibold">
           turkcedokuman
         </span>

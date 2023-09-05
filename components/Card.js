@@ -19,11 +19,11 @@ export default function Card({
       <Tilt tiltEnable={!isAddCard}>
         <article
           className={classNames(
-            "m-[10px] h-40 w-80 select-none p-[1px] border rounded-lg overflow-hidden",
+            "m-[10px] h-40 w-80 select-none p-[1px] border rounded-lg overflow-hidden dark:border-neutral-800",
             { "border-dashed": isAddCard }
           )}
         >
-          <div className="bg-gradient-to-t bg-white relative flex h-full flex-col justify-between p-4 transition">
+          <div className="bg-white dark:bg-neutral-950 relative flex h-full flex-col justify-between p-4 transition">
             <Link
               href={url}
               target="_blank"
@@ -32,14 +32,16 @@ export default function Card({
             >
               <header className="align-center flex flex-wrap justify-between">
                 <div>
-                  <h2 className="text-base font-medium text-neutral-600">
+                  <h2 className="text-base font-medium text-neutral-600 dark:text-white">
                     {title}
                   </h2>
-                  <h3 className="text-xs text-neutral-500">{author}</h3>
+                  <h3 className="text-xs text-neutral-500 dark:text-neutral-400">
+                    {author}
+                  </h3>
                 </div>
                 <figure
                   className={classNames(
-                    "h-auto w-auto rounded-md bg-white border p-1 text-[10px] text-neutral-400",
+                    "h-auto w-auto rounded-md bg-white dark:bg-neutral-100 border p-1",
                     { "border-dashed": isAddCard }
                   )}
                 >
@@ -47,7 +49,9 @@ export default function Card({
                 </figure>
               </header>
 
-              <footer className="text-xs text-neutral-500">{desc}</footer>
+              <footer className="text-xs text-neutral-500 dark:text-neutral-400">
+                {desc}
+              </footer>
             </Link>
           </div>
         </article>

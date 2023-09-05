@@ -9,11 +9,9 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color: #121212;
-    --background-color: #fafafa;
   }
 }
 
 body {
   background-color: var(--background-color);
-  color: #121212;
 }

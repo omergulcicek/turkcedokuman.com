@@ -7,7 +7,7 @@ export default function NotFound() {
     <>
       <section className="flex flex-col justify-center items-center gap-4">
         <p className="text-3xl">
-          <span className="text-red-600">"{searchText}"</span> için bir sonuç
+          <span className="text-red-600">{searchText}</span> için bir sonuç
           bulunamadı 🥲
         </p>
         <p>Başka bir kelime arayabilirsin.</p>
