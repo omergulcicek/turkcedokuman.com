@@ -3,7 +3,7 @@ import { useTheme } from "next-themes"
 
 const DarkTheme = () => {
   const [mounted, setMounted] = useState(false)
-  const { theme, setTheme } = useTheme()
+  const { theme, setTheme } = useTheme("light")
 
   // useEffect only runs on the client, so now we can safely show the UI
   useEffect(() => {
