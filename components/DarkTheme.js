@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react"
 import { useTheme } from "next-themes"
-import { FiSun, FiMoon } from "react-icons/fi"
+
+import MoonSvg from "./../public/moon.svg"
+import SunSvg from "./../public/sun.svg"
 
 const DarkTheme = () => {
   const [mounted, setMounted] = useState(false)
@@ -24,9 +26,19 @@ const DarkTheme = () => {
         }
       >
         {theme === "dark" ? (
-          <FiSun color={"var(--background)"} />
+          <img
+            src={SunSvg.src}
+            alt="Açık Tema"
+            height={SunSvg.height}
+            width={SunSvg.width}
+          />
         ) : (
-          <FiMoon color={"var(--color)"} />
+          <img
+            src={MoonSvg.src}
+            alt="Koyu Tema"
+            height={MoonSvg.height}
+            width={MoonSvg.width}
+          />
         )}
       </figure>
     </>
