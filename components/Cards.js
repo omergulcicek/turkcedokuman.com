@@ -3,7 +3,7 @@ import { MainContext, useContext } from "./context"
 import { Card, NotFound } from "@/components"
 
 export default function Cards() {
-  const { filteredItems } = useContext(MainContext)
+  const { filteredItems, searchText } = useContext(MainContext)
 
   const addCardData = {
     title: "Yeni Doküman Ekle",
@@ -18,12 +18,10 @@ export default function Cards() {
 
   return (
     <section className="mt-10 flex justify-center flex-wrap">
+      {searchText === "" && <Card data={addCardData} isAddCard={true} />}
+
       {filteredItems?.map((item, index) => (
-        <Card
-          data={index === 0 ? addCardData : { ...item }}
-          key={index}
-          isAddCard={index === 0}
-        />
+        <Card data={{ ...item }} key={index} />
       ))}
     </section>
   )

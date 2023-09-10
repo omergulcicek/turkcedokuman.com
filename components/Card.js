@@ -8,7 +8,7 @@ import { getLogoSvg } from "../utils/getLogo"
 
 export default function Card({
   data: { title, desc, logo, author, url },
-  isAddCard,
+  isAddCard = false,
 }) {
   const { searchText } = useContext(MainContext)
 
