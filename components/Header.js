@@ -2,16 +2,16 @@
 
 import { FiExternalLink } from "react-icons/Fi"
 
-import { Brand } from "@/components"
+import { Brand, DarkTheme } from "@/components"
 
 export default function Header() {
   return (
     <>
-      <header className="border-b bg-white p-6">
+      <header className="border-b bg-white p-6 select-none">
         <div className="container flex items-center justify-between m-auto">
-          <div className="flex gap-3">
+          <div className="flex items-center gap-3">
             <Brand />
-            <button>+</button>
+            <DarkTheme />
           </div>
 
           <div>

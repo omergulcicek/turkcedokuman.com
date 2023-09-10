@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --background-color: #fafafa;
+  --background: white;
+  --foreground: black;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #121212;
-  }
+[data-theme="dark"] {
+  --background: black;
+  --foreground: white;
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--background);
 }
