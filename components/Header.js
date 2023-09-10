@@ -7,7 +7,7 @@ import { Brand, DarkTheme } from "@/components"
 export default function Header() {
   return (
     <>
-      <header className="border-b bg-white p-6 select-none">
+      <header className="border-b dark:border-b-neutral-800 bg-white dark:bg-neutral-900 p-6 select-none">
         <div className="container flex items-center justify-between m-auto">
           <div className="flex items-center gap-3">
             <Brand />
@@ -16,10 +16,10 @@ export default function Header() {
 
           <div>
             <a
-              href="/"
+              href="https://github.com/omergulcicek/turkcedokuman.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1 text-blue-500 underline text-sm"
+              className="flex items-center gap-1 text-blue-500 dark:text-blue-300 underline text-sm"
             >
               <span>Nasıl katkıda bulunabilirim?</span>
 

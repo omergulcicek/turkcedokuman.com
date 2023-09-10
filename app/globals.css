@@ -2,16 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: white;
-  --foreground: black;
-}
+@layer base {
+  :root {
+    --background: white;
+    --color: black;
+  }
 
-[data-theme="dark"] {
-  --background: black;
-  --foreground: white;
+  .dark {
+    --background: black;
+    --color: white;
+  }
 }
 
 body {
   background-color: var(--background);
+  color: var(--color);
 }

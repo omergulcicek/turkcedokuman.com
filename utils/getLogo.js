@@ -208,7 +208,7 @@ export const getLogoSvg = (logo) => {
         </svg>
       )
     case "add-card":
-      return <MdOutlineAddCircle size={32} />
+      return <MdOutlineAddCircle size={32} color={"#4caf50"} />
     default:
       return <GrDocument size={32} />
   }

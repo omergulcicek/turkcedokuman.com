@@ -42,7 +42,9 @@ export default function Card({
                 <figure
                   className={classNames(
                     "h-auto w-auto rounded-md bg-white dark:bg-neutral-100 border p-1",
-                    { "border-dashed": isAddCard }
+                    {
+                      "border-dashed bg-green-100 dark:bg-green-100": isAddCard,
+                    }
                   )}
                 >
                   {getLogoSvg(logo)}
