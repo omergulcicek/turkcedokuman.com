@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <>
       <header className="border-b dark:border-b-neutral-800 bg-white dark:bg-neutral-900 p-6 select-none">
-        <div className="container flex items-center justify-between m-auto">
+        <div className="container flex items-center justify-between flex-col md:flex-row gap-5 m-auto">
           <div className="flex items-center gap-3">
             <Brand />
             <DarkTheme />
