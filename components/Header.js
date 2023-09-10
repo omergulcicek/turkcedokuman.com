@@ -19,7 +19,7 @@ export default function Header() {
               href="https://github.com/omergulcicek/turkcedokuman.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-1 text-blue-500 dark:text-blue-300 underline text-sm"
+              className="flex items-center gap-1 text-blue-600 dark:text-blue-300 underline text-sm"
             >
               <span>Nasıl katkıda bulunabilirim?</span>
 
